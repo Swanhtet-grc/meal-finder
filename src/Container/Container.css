@@ -1,5 +1,9 @@
 .Container{
     width: 80%;
-    margin: 120px 150px 120px 150px;
-    align-items: center;
+    margin-left: 13%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 220px;
+   text-align: center;
+   justify-content: center;
 }

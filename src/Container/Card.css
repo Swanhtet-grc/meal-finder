@@ -1,13 +1,26 @@
 .Card {
-  width: 120px;
-  height: 120px;
+  min-width: 180px;
+  min-height: 150px;
   margin: 2%;
   border: 1px solid #eee;
   box-shadow: 1px 2px 3px #ccc;
-  padding: 25px;
+  padding: 2px;
   font-size: 30px;
   text-align: center;
-  display: inline-block;
-  background-color: rgba(236, 109, 18, 0.507);
+  display: flex;
+  background-color: rgba(145, 209, 136, 0.507);
   cursor: pointer;
+  border-radius: 15px;
+}
+
+.img{
+  width: 240px;
+  height: 200px;
+  opacity: 0.9;
+  transition: 0.4s;
+}
+
+.img:hover {
+  opacity: 1;
+  background-color: rgba(145, 209, 136, 0.815);
 }

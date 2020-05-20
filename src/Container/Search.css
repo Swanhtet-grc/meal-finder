@@ -12,9 +12,9 @@ body{
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00B4CC;
- 
-  padding: 5px;
+  border: 10px solid #00B4CC;
+border-radius: 10px;
+  padding: 8px;
   height: 20px;
   border-radius: 5px 0 0 5px;
   outline: none;
@@ -28,7 +28,7 @@ body{
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #00B4CC;
+  border: 5px solid #00B4CC;
   background: #00B4CC;
   text-align: center;
   color: #fff;
@@ -40,7 +40,7 @@ body{
 .wrap{
   width: 30%;
   position: absolute;
-  top: 17%;
+  top: 24%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -51,8 +51,11 @@ body{
 }
 
 .bt {
-    background-color: cadetblue;
+    background-color: #00B4CC;
     border-radius: 5px;
     border: 1px solid #00B4CC;
     outline: none;
+    font-size: medium;
+    padding: 10px;
+    margin-left: 4px;
 }
