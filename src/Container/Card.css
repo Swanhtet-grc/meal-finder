@@ -1,0 +1,13 @@
+.Card {
+  width: 120px;
+  height: 120px;
+  margin: 2%;
+  border: 1px solid #eee;
+  box-shadow: 1px 2px 3px #ccc;
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(236, 109, 18, 0.507);
+  cursor: pointer;
+}
