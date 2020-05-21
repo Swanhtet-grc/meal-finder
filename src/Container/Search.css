@@ -12,11 +12,12 @@ body{
 
 .searchTerm {
   width: 100%;
-  border: 10px solid #00B4CC;
+  font-size: 17px;
+  border: 10px solid rgb(0, 0, 0);
 border-radius: 10px;
-  padding: 8px;
+  padding: 3px;
   height: 20px;
-  border-radius: 5px 0 0 5px;
+  padding: 5px;
   outline: none;
   color: #9DBFAF;
 }
@@ -46,14 +47,14 @@ border-radius: 10px;
 }
 
 .fa-search {
-    color: black;
+    color: white;
 
 }
 
 .bt {
-    background-color: #00B4CC;
+    background-color: rgb(0, 0, 0);
     border-radius: 5px;
-    border: 1px solid #00B4CC;
+    border: 1px solid rgb(151, 151, 151);
     outline: none;
     font-size: medium;
     padding: 12px;
