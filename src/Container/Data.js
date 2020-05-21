@@ -10,7 +10,7 @@ function Data() {
     // this useEffect will run once
     // similar to componentDidMount()
     useEffect(() => {
-        fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=a')
+        fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
             .then(res => res.json())
             .then(
                 jason => {
