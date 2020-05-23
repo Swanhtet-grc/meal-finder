@@ -1,0 +1,12 @@
+.Details{
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    position: relative;
+}
+
+
+.title{
+    margin-left: 70px;
+}
