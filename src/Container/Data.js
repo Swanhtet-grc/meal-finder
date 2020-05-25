@@ -16,6 +16,7 @@ function Data() {
                 jason => {
                     setIsLoaded(true);
                     console.log(jason);
+                    setItems(jason.categories[0].strCategoryDescription)
                 },
                 // Note: it's important to handle errors here
                 // instead of a catch() block so that we don't swallow
@@ -33,7 +34,7 @@ function Data() {
         return <div>Loading...</div>;
     } else {
         return (
-            <div>{items}</div>
+            <div></div>
 
         );
     }
