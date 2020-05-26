@@ -12,9 +12,12 @@ export const details = (props) => {
     return (
         <BrowserRouter>
             <div className="Details">
-                <h2 className="title">{props.value}</h2>
+                <h2 className="title">Category Detail Page</h2>
                 <Card mealType={props.imageLink} mealName={props.name} />
-                <p>{category[0].strCategory}</p>
+                <i className="detailHeader"><strong>Category Name:</strong> {category[0].strCategory}</i>
+                <i className="detailNo"><strong>Category Number:</strong></i>
+                <i className="detailDescription"><strong>Category Description:</strong> {category[0].strCategoryDescription}</i>
+                <i className="detailAdded">Search for Specific Meal Name</i>
             </div >
         </BrowserRouter>
     )
@@ -22,7 +25,7 @@ export const details = (props) => {
 
 
 
-function mapStateToProps(state) {
+const mapStateToProps = (state) => {
     return { value: state.value }
 }
 

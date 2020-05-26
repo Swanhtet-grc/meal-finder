@@ -1,12 +1,38 @@
 .Details{
-    max-width: 400px;
+    max-width: 900px;
+    margin: auto;
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    margin: 10px auto;
-    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.title{
-    margin-left: 70px;
+i{
+    margin: 15px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+.detailHeader{
+    align-self: start;
+}
+
+.detailNo{
+    align-self: start;
+}
+
+.detailAdded{
+    border: 1px solid black;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.detailAdded:hover{
+    background-color: black;
+    color: wheat;
 }

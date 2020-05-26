@@ -4,20 +4,19 @@ import Navbar from "./Container/Navbar";
 import Container from './Container/Container';
 import Details from "./Container/Details";
 import Data from "./Container/Data"
-import { BrowserRouter, Link } from "react-router-dom";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Switch } from "react-router-dom";
 
 function App() {
   var num = "/";
   return (
-    <BrowserRouter>
+    <Router>
       <Navbar />
       <Switch>
         <Route exact path={num} component={Container} />
-        <Route path="/details/beef" component={Details} />
+        <Route path="/detail" component={Details} />
       </Switch>
-      <Data />
-    </BrowserRouter>
+    </Router>
   );
 }
 

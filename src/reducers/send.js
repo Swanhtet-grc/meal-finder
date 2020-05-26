@@ -1,8 +1,9 @@
+
 //Reducer
-const sendMessageReducer = (state = '', action) => {
+const sendMessageReducer = (state = 'Nothing', action) => {
     switch (action.type) {
         case 'CLICKED':
-            return action.value;
+            return action.type;
         default:
             return state;
     }

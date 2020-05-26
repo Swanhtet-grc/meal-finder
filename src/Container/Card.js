@@ -1,35 +1,23 @@
 import React from "react";
 import "./Card.css";
-import Details from "./Details";
 import { BrowserRouter, Link } from "react-router-dom";
-import { connect } from 'react-redux'
-
-const card = (props) => {
+import { connect } from 'react-redux';
+export const card = (props) => {
     return (
         <BrowserRouter>
-
-            <div className="Card" >
-                <a href={props.address}>
+            <div className="Card" onClick={props.sendMessToStore} >
+                <a href="/detail">
                     <img src={props.mealType} className="img" /><h3>{props.mealName}</h3>
                 </a>
             </div >
-
-        </BrowserRouter>
+        </BrowserRouter >
     )
 }
 
-export default card;
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
     return {
-        sendMessage: () => dispatch({ type: 'INCREMENT' }),
+        sendMessToStore: () => dispatch({ type: 'CLICKED' })
     }
 }
-function Counter({ count, dispatch }) {
-    return (
-        <div>
-            <button onClick={() => dispatch({ type: 'DECREMENT' })}>-</button>
-        </div>
-    )
-}
-connect(mapStateToProps)(card)
+export default connect(null, mapDispatchToProps)(card)

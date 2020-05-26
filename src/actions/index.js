@@ -7,6 +7,5 @@ export const increment = () => {
 export const sendMessage = () => {
     return {
         type: 'CLICKED',
-        value: 'yes'
     }
 }
