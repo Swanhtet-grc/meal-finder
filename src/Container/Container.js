@@ -3,7 +3,6 @@ import Card from "./Card"
 import "./Container.css";
 import Search from "./Search"
 import category from "./Category"
-import { connect } from 'react-redux'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const container = (props) => {

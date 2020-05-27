@@ -29,6 +29,7 @@ i{
     padding: 4px;
     cursor: pointer;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .detailDescription{

@@ -1,12 +1,10 @@
 import React from "react";
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Card from "./Card";
 import "./Details.css";
 
 
-
 const details = (props) => {
-
     return (
         <BrowserRouter>
             <div className="Details">
@@ -15,7 +13,7 @@ const details = (props) => {
                 <i className="detailHeader"><strong>Category Name:</strong> {props.name}</i>
                 <i className="detailNo"><strong>Category Number:</strong> {props.idCategory}</i>
                 <i className="detailDescription"><strong>Category Description:</strong> {props.strCategoryDescription}</i>
-                <i className="detailAdded">Search for Specific Meal Name</i>
+                <a href="/" className="detailAdded"><i >Search for Specific Meal Name</i></a>
             </div >
         </BrowserRouter>
     )
