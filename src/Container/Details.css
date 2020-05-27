@@ -1,5 +1,5 @@
 .Details{
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     align-items: center;
     display: flex;
@@ -10,11 +10,10 @@
 
 
 i{
-    margin: 15px;
-    font-size: 18px;
+    margin: 8px;
+    font-size: 19px;
     font-style: normal;
-    line-height: 1.8em;
-    text-align: left;
+    line-height: 1.82em;
 }
 
 .detailHeader{
@@ -32,7 +31,11 @@ i{
     border-radius: 5px;
 }
 
+.detailDescription{
+    align-self: start;
+}
 .detailAdded:hover{
     background-color: black;
+    align-self: center;
     color: wheat;
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Card.css";
-import { BrowserRouter, Link } from "react-router-dom";
-import { connect } from 'react-redux';
-export const card = (props) => {
+import { BrowserRouter as Router, Route, BrowserRouter } from 'react-router-dom'
+
+const card = (props) => {
+    let address = `/detail/${props.mealName}`
     return (
         <BrowserRouter>
-            <div className="Card" onClick={props.sendMessToStore} >
-                <a href="/detail">
+            <div className="Card"  >
+                <a href={address}>
                     <img src={props.mealType} className="img" /><h3>{props.mealName}</h3>
                 </a>
             </div >
@@ -14,10 +15,4 @@ export const card = (props) => {
     )
 }
 
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        sendMessToStore: () => dispatch({ type: 'CLICKED' })
-    }
-}
-export default connect(null, mapDispatchToProps)(card)
+export default card;

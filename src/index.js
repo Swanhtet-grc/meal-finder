@@ -2,20 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { Provider } from "react-redux";
 import * as serviceWorker from './serviceWorker';
-import { createStore } from 'redux';
-import allReducer from './reducers';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-const store = createStore(allReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+
 
 ReactDOM.render(
-  <Router>
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </Router>,
+  <App />,
   document.getElementById('root')
 );
 
