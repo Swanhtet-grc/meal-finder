@@ -9,7 +9,9 @@ const DetailCon = (props) => {
     let obj = Category.filter(x => x.strCategory === mealName)
     console.log(obj)
     return (
-        <Details imageLink={obj[0].strCategoryThumb} name={obj[0].strCategory} idCategory={obj[0].idCategory} strCategoryDescription={obj[0].strCategoryDescription} />
+        <div>
+            <Details imageLink={obj[0].strCategoryThumb} name={obj[0].strCategory} idCategory={obj[0].idCategory} strCategoryDescription={obj[0].strCategoryDescription} />
+        </div>
     )
 }
 
