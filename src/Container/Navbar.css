@@ -25,3 +25,15 @@ p {
 p:hover {
     opacity: 1;
 }
+
+
+
+/* ==================================
+	Mobile Styles: 0px to 480px
+   ==================================
+*/
+@media only screen and (max-width: 480px) {
+    p {
+        margin: 10px 8px 10px 30%;
+    }
+}

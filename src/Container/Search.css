@@ -59,3 +59,16 @@ body {
   margin-left: 2px;
   cursor: pointer;
 }
+
+/* ==================================
+	Mobile Styles: 0px to 480px
+   ==================================
+*/
+@media only screen and (max-width: 480px) {
+  .wrap {
+    width: 50%;
+    left: 55%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+  }
+}
