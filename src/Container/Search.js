@@ -20,7 +20,7 @@ class Search extends React.Component {
             <div className="wrap">
                 <div className="search">
                     <input type="text" value={this.state.inputValue} onChange={evt => this.updateInputValue(evt)} className="searchTerm" placeholder="What are you looking for?" />
-                    <a href="/detail/Pork" ><button className="bt" ><i className="fas fa-search"></i></button></a>
+                    <button className="bt" onClick={() => alert("Sorry about that! I am still working on this feature")}><i className="fas fa-search"></i></button>
                 </div>
             </div>
         );

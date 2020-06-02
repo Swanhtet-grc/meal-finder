@@ -1,5 +1,4 @@
-
-body{
+body {
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
 }
@@ -12,52 +11,51 @@ body{
 
 .searchTerm {
   width: 100%;
-  font-size: 17px;
-  border: 10px solid rgb(0, 0, 0);
-border-radius: 10px;
-  padding: 3px;
-  height: 20px;
+  font-size: 15px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 5px;
   padding: 5px;
+  height: 16px;
   outline: none;
   color: #9DBFAF;
 }
 
-.searchTerm:focus{
+.searchTerm:focus {
   color: rgb(8, 16, 17);
 }
 
 .searchButton {
-  width: 40px;
-  height: 36px;
+  width: 10px;
+  height: 10px;
   border: 5px solid #00B4CC;
   background: #00B4CC;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
 }
 
-.wrap{
-  width: 30%;
+.wrap {
+  width: 28%;
   position: absolute;
-  top: 13%;
+  top: 18%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .fa-search {
-    color: white;
-    font-size: 20px;
-    padding: 5px;
+  color: white;
+  font-size: 13px;
+  padding: 1px;
 }
 
 .bt {
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    border: 1px solid rgb(151, 151, 151);
-    outline: none;
-    font-size: medium;
-    margin-left: 3px;
-    cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 1px solid rgb(151, 151, 151);
+  outline: none;
+  font-size: medium;
+  margin-left: 2px;
+  cursor: pointer;
 }
