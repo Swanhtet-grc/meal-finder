@@ -69,12 +69,6 @@ const category = [
         strCategory: "Breakfast",
         strCategoryDescription: "Breakfast is the first meal of a day. The word in English refers to breaking the fasting period of the previous night. There is a strong likelihood for one or more \"typical\", or \"traditional\", breakfast menus to exist in most places, but their composition varies widely from place to place, and has varied over time, so that globally a very wide range of preparations and ingredients are now associated with breakfast.",
         strCategoryThumb: "https://www.themealdb.com/images/category/breakfast.png"
-    },
-    {
-        idCategory: "14",
-        strCategory: "Goat",
-        strCategoryDescription: "The domestic goat or simply goat (Capra aegagrus hircus) is a subspecies of C. aegagrus domesticated from the wild goat of Southwest Asia and Eastern Europe. The goat is a member of the animal family Bovidae and the subfamily Caprinae, meaning it is closely related to the sheep. There are over 300 distinct breeds of goat. Goats are one of the oldest domesticated species of animal, and have been used for milk, meat, fur and skins across much of the world. Milk from goats is often turned into goat cheese.",
-        strCategoryThumb: "https://www.themealdb.com/images/category/goat.png"
     }
 ]
 
