@@ -11,7 +11,7 @@ import SearchResult from './Container/SearchResult';
 
 const App = () => {
   let currentUrl = window.location.href;
-  let mealName = currentUrl.substring(29, currentUrl.length)
+  let mealName = currentUrl.split("/")[4]
   let currentPath = `/detail/${mealName}`
   return (
     <MyProvider>
