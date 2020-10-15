@@ -4,7 +4,7 @@ import Category from './Category'
 
 const DetailCon = (props) => {
     let currentUrl = window.location.href;
-    let mealName = currentUrl.substring(29, currentUrl.length)
+    let mealName = currentUrl.split("/")[4]
     let y = 0;
     let obj = Category.filter(x => x.strCategory === mealName)
     return (
